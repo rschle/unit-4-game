@@ -10,7 +10,28 @@ $(document).ready(function(){
 
 //making initial variables for total score, wins, and losses
    var totalScore = 0;
+   $("#totalScore").text(0);
+
    var winCount = 0;
    var lossCount = 0;
 
+ 
+
+//adding click triggers for gems 
+//ruby gem
+$("#ruby-gem").on("click", function(){
+    $("#totalScore").text(totalScore + rubyNum);
+})
+
+$("#blue-gem").on("click", function(){
+    $("#totalScore").text(totalScore + blueNum);
+})
+
+$("#purple-gem").on("click", function(){
+    $("#totalScore").text(totalScore + purpleNum);
+})
+
+$("#emerald-gem").on("click", function(){
+    $("#totalScore").text(totalScore + emeraldNum);
+})
 })
