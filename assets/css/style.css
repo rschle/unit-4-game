@@ -1,6 +1,5 @@
 body{
     background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/background-geometric-tumblr-3.jpg); 
-    margin-bottom: 20px;
 }
 
 #masthead{
@@ -29,7 +28,10 @@ a{
     margin-top: 1%;
     width: 15%;
     position: relative;
+}
 
+#random-number{
+    color: yellow;
 }
 #streak-section{
     background-color: aqua;
@@ -125,6 +127,7 @@ a{
           left: 350px;
           width: 15%;
           top:-5px;
+          font-size: 50px;
       }
       #score-section{
           position: relative;

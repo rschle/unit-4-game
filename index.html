@@ -7,6 +7,7 @@
     <title>Crystals Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+   
 </head>
 <body>
 <header id="masthead">
@@ -32,11 +33,11 @@
     </div>
             <div class="row">
                 <div id="number-section" class="col-sm-3">
-                    <h1 id="random number">39</h1>
+                    <h1 id="random-number"></h1>
                 </div>
                 <div id="streak-section" class="col-sm-2">
-                    <p>Wins: <span id="win-count">0</span></p>
-                    <p>Losses: <span id="loss-count">0</span></p>
+                    <p>Wins: <span id="winCount">0</span></p>
+                    <p>Losses: <span id="lossCount">0</span></p>
                 </div>
             </div>
             <div class="row">
@@ -60,10 +61,15 @@
             </div>
             <div id="score-section" class="row">
                 <div class="col-sm-3">
-                    <h1><span id="total-score"></span>0</h1>
+                    <h1><span id="totalScore"></span>0</h1>
                 </div>
             </div>
+
     </div>
+     <!-- adding link for jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
     
 </body>
 </html>
