@@ -99,3 +99,142 @@ a{
     padding: 2%;
     top:-375px;
 }
+
+@media only screen and (max-width: 980px) {
+    #masthead{
+      width: 60%;
+      margin-left: 15%;
+      margin-right: 85%;
+      margin-top: 0%;
+      margin bottom: 0%;
+    }
+  
+      #main-container{
+          width: 100%;
+      }
+  
+      #streak-section{
+          width: 15.5%;
+          position: relative;
+          right: -350px;
+          top: -20px;
+      }
+  
+     #number-section{
+          position: relative;
+          left: 350px;
+          width: 15%;
+          top:-5px;
+      }
+      #score-section{
+          position: relative;
+          top: -490px;
+          
+      }
+  
+      #titlescore-section{
+          top:-490px;
+      }
+  
+      #ruby-gem{
+          position: relative;
+          width: 18%;
+          left: 110px;
+          top: -200px;
+          
+      }
+  
+      #blue-gem{
+          position: relative;
+          width: 18%;
+          left: 110px;
+          top: -200px;
+  
+      }
+  
+      #emerald-gem{
+          position: relative;
+          width: 14%;
+          left: 250px;
+          top: -405px;
+      }
+  
+      #purple-gem{
+          position: relative;
+          width: 14%;
+          left: 250px;
+          top: -269px;
+      }
+  
+
+  @media only screen and (max-width: 768px) {
+      
+    #masthead{
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin bottom: 0%;
+
+    }
+
+    #main-container{
+        width: 100%;
+    }
+
+    #streak-section{
+        width: 15.5%;
+        position: relative;
+        right: -350px;
+        top: -20px;
+    }
+
+   #number-section{
+        position: relative;
+        left: 350px;
+        width: 15%;
+        top:-5px;
+    }
+    #score-section{
+        position: relative;
+        top: -490px;
+        
+    }
+
+    #titlescore-section{
+        top:-490px;
+    }
+
+    #ruby-gem{
+        position: relative;
+        width: 18%;
+        left: 110px;
+        top: -200px;
+        
+    }
+
+    #blue-gem{
+        position: relative;
+        width: 18%;
+        left: 110px;
+        top: -200px;
+
+    }
+
+    #emerald-gem{
+        position: relative;
+        width: 14%;
+        left: 250px;
+        top: -405px;
+    }
+
+    #purple-gem{
+        position: relative;
+        width: 14%;
+        left: 250px;
+        top: -269px;
+    }
+
+    
+
+    
