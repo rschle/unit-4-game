@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://backgrounddownload.com/wp-content/uploads/2018/09/background-geometric-tumblr-3.jpg); 
+    margin-bottom: 20px;
+}
+
+#masthead{
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(https://previews.customer.envatousercontent.com/files/161464875/Crystal%20Background%20preview%20image.jpg);
+    padding: 2%;
+    width: 30%;
+    border: 2px solid;
+    border-color: violet;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+#main-container{
+    background-color: lemonchiffon;
+    color: green;
+    width: 40%;
+
+}
+#number-section{
+    background-color: #54DE87;
+    padding: 2%;
+    margin-top: 1%;
+    width: 15%;
+    position: relative;
+
+}
+#streak-section{
+    background-color: aqua;
+    width: 5%;
+    padding: 1.8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    top: -144px;
+    right: -250px;
+}
+
+#ruby-gem{
+    position: relative;
+    width: 8.5%;
+    height: 10%;
+    top: -140px;
+    border: 1px solid;
+    border-color: red;
+}
+#blue-gem{
+    position: relative;
+    width: 7.8%;
+    height: 4%;
+    top: -226px;
+    right: -115px;
+    border: 1px solid;
+    border-color: aqua;
+}
+#purple-gem{
+    position: relative;
+    width: 6.3%;
+    height: 2%;
+    top: -310px;
+    right: -220px;
+    border: 1px solid;
+    border-color: violet;
+}
+#emerald-gem{
+    position: relative;
+    width: 6.5%;
+    height: 2%;
+    top: -395px;
+    right: -307px;
+    border: 1px solid;
+    border-color: lime;
+}
+
+#titlescore-section{
+    position:relative;
+    background-color: #1DB39F;
+    color: white;
+    padding: 0.00155%;
+    width: 18%;
+    top: -390px;
+    border: 2px solid;
+    border-color: yellow;
+}
+#score-section{
+    position: relative;
+    background-color: #1DB39F;
+    width: 14%;
+    color: white;
+    text-align: center;
+    border: 2px solid;
+    border-color: yellow;
+    padding: 2%;
+    top:-375px;
+}
