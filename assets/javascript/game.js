@@ -34,11 +34,13 @@ $("#ruby-gem").on("click", function(){
         wins++;
         $("#winCount").text(wins);
         console.log(wins);
+        $("#streak-section").prepend("You won!!");
         } 
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
+        $("#streak-section").prepend("You lost!!");
         }
 })
 $("#blue-gem").on("click", function(){
@@ -48,11 +50,13 @@ $("#blue-gem").on("click", function(){
         wins++;
         $("#winCount").text(wins);
         console.log(wins);
+        $("#streak-section").prepend("You won!!");
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
+        $("#streak-section").prepend("You lost!!");
         }
 })
 
@@ -63,11 +67,13 @@ $("#purple-gem").on("click", function(){
         wins++;
         $("#winCount").text(wins);
         console.log(wins);
+        $("#streak-section").prepend("You won!!");
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
+        $("#streak-section").prepend("You lost!!");
         }
 })
 
@@ -78,11 +84,13 @@ $("#emerald-gem").on("click", function(){
         wins++;
         $("#winCount").text(wins);
         console.log(wins);
+        $("#streak-section").prepend("You won!!");
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
+        $("#streak-section").prepend("You lost!!");
         }
 })
 
