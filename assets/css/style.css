@@ -87,9 +87,10 @@ a{
     color: white;
     padding: 0.00155%;
     width: 18%;
-    top: -390px;
+    top: -605px;
+    left: 450px;
     border: 2px solid;
-    border-color: yellow;
+    border-color: rgb(0, 255, 64);
 }
 #score-section{
     position: relative;
@@ -100,7 +101,8 @@ a{
     border: 2px solid;
     border-color: yellow;
     padding: 2%;
-    top:-375px;
+    top:-600px;
+    left: 450px;
 }
 
 @media only screen and (max-width: 980px) {
