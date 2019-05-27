@@ -6,7 +6,7 @@ body{
     font-family: 'Orbitron', sans-serif;
     background-image: url(https://previews.customer.envatousercontent.com/files/161464875/Crystal%20Background%20preview%20image.jpg);
     padding: 2%;
-    width: 30%;
+    width: 50%;
     border: 2px solid;
     border-color: violet;
 }
@@ -32,6 +32,7 @@ a{
 
 #random-number{
     color: yellow;
+    font-size: 30px;
 }
 #streak-section{
     background-color: aqua;

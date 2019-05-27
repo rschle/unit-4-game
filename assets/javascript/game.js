@@ -20,18 +20,22 @@ $(document).ready(function(){
 //adding click triggers for gems 
 //ruby gem
 $("#ruby-gem").on("click", function(){
-    $("#totalScore").text(totalScore + rubyNum);
+    totalScore = totalScore + rubyNum;
+    $("#totalScore").text(totalScore);
 })
-
 $("#blue-gem").on("click", function(){
-    $("#totalScore").text(totalScore + blueNum);
+    totalScore = totalScore + blueNum;
+    $("#totalScore").text(totalScore);
 })
 
 $("#purple-gem").on("click", function(){
-    $("#totalScore").text(totalScore + purpleNum);
+    totalScore = totalScore + purpleNum;
+    $("#totalScore").text(totalScore);
 })
 
 $("#emerald-gem").on("click", function(){
-    $("#totalScore").text(totalScore + emeraldNum);
+    totalScore = totalScore + emeraldNum;
+    $("#totalScore").text(totalScore);
 })
+
 })
