@@ -35,12 +35,16 @@ $("#ruby-gem").on("click", function(){
         $("#winCount").text(wins);
         console.log(wins);
         $("#streak-section").prepend("You won!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         } 
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
         $("#streak-section").prepend("You lost!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
 })
 $("#blue-gem").on("click", function(){
@@ -51,12 +55,16 @@ $("#blue-gem").on("click", function(){
         $("#winCount").text(wins);
         console.log(wins);
         $("#streak-section").prepend("You won!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
         $("#streak-section").prepend("You lost!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
 })
 
@@ -68,12 +76,16 @@ $("#purple-gem").on("click", function(){
         $("#winCount").text(wins);
         console.log(wins);
         $("#streak-section").prepend("You won!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
         $("#streak-section").prepend("You lost!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
 })
 
@@ -85,12 +97,16 @@ $("#emerald-gem").on("click", function(){
         $("#winCount").text(wins);
         console.log(wins);
         $("#streak-section").prepend("You won!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
     else if(totalScore > random){
         losses++;
         $("#lossCount").text(losses);
         console.log(losses);
         $("#streak-section").prepend("You lost!!");
+        totalScore = 0;
+        $("#totalScore").text(totalScore);
         }
 })
 
